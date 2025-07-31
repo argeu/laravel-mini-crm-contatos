@@ -65,10 +65,27 @@ docker-compose exec app php artisan migrate
 docker-compose exec app php artisan db:seed
 ```
 
-#### 8. Acessar a aplicação
+#### 8. Executar seeders (opcional)
+```bash
+docker-compose exec app php artisan db:seed
+```
+
+#### 9. Acessar a aplicação
 ```
 http://localhost:8000
 ```
+
+#### 10. Credenciais de Acesso
+Após executar os seeders, você pode fazer login com as seguintes credenciais:
+
+**Usuário Padrão:**
+- **Email:** `admin@example.com`
+- **Senha:** `password123`
+
+**Para acessar o dashboard:**
+1. Acesse: `http://localhost:8000/login`
+2. Use as credenciais acima
+3. Após o login, você será redirecionado para o dashboard
 
 ### Opção 2: Setup Tradicional
 
@@ -108,6 +125,11 @@ touch database/database.sqlite
 php artisan migrate
 ```
 
+#### 6. Executar seeders (opcional)
+```bash
+php artisan db:seed
+```
+
 #### 6. Configurar Redis (para filas e broadcasting)
 ```bash
 # Instalar Redis
@@ -122,6 +144,18 @@ php artisan migrate
 # REDIS_PASSWORD=null
 # REDIS_PORT=6379
 ```
+
+#### 7. Credenciais de Acesso
+Após executar os seeders, você pode fazer login com as seguintes credenciais:
+
+**Usuário Padrão:**
+- **Email:** `admin@example.com`
+- **Senha:** `password123`
+
+**Para acessar o dashboard:**
+1. Acesse: `http://localhost:8000/login`
+2. Use as credenciais acima
+3. Após o login, você será redirecionado para o dashboard
 
 ## 🚀 Como Executar
 
