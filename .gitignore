@@ -1,0 +1,134 @@
+# Laravel
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+
+# Cache e logs
+.phpunit.cache
+.phpunit.result.cache
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+
+# IDE e editores
+/.fleet
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+.env.docker
+docker-compose.*.yml
+
+# Composer
+composer.phar
+auth.json
+
+# NPM/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Database
+*.sqlite
+*.sqlite3
+database/database.sqlite
+
+# Testing
+/coverage
+.phpunit.cache
+.phpunit.result.cache
+
+# Build artifacts
+/public/mix-manifest.json
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Logs específicos do projeto
+/storage/logs/contact.log
+/storage/logs/laravel.log
+
+# Arquivos de configuração local
+config/local.php
+config/*.local.php
+
+# Arquivos de backup do sistema
+*.orig
+*.rej
+*.old
+
+# Arquivos de lock temporários
+*.lock
+!composer.lock
+!package-lock.json
+!yarn.lock
+
+# Composer
+.composer/
+
+# Arquivos de cache do sistema
+.cache/
+*.cache
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup do Git
+*.orig
+*.rej
+
+# Arquivos de teste temporários
+/tests/tmp/
+/tests/output/
+
+# Arquivos de upload temporários
+/storage/app/public/tmp/
+/storage/app/public/uploads/tmp/
+
+# Arquivos de sessão
+/storage/framework/sessions/*
+
+# Arquivos de cache
+/storage/framework/cache/*
+
+# Arquivos de views compiladas
+/storage/framework/views/*
