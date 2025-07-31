@@ -79,8 +79,8 @@ http://localhost:8000
 Após executar os seeders, você pode fazer login com as seguintes credenciais:
 
 **Usuário Padrão:**
-- **Email:** `admin@example.com`
-- **Senha:** `password123`
+- **Email:** `admin@gmail.com`
+- **Senha:** `password`
 
 **Para acessar o dashboard:**
 1. Acesse: `http://localhost:8000/login`
@@ -149,8 +149,8 @@ php artisan db:seed
 Após executar os seeders, você pode fazer login com as seguintes credenciais:
 
 **Usuário Padrão:**
-- **Email:** `admin@example.com`
-- **Senha:** `password123`
+- **Email:** `admin@gmail.com`
+- **Senha:** `password`
 
 **Para acessar o dashboard:**
 1. Acesse: `http://localhost:8000/login`
@@ -504,14 +504,6 @@ SESSION_DRIVER=redis
 - **Broadcasting**: Configurado com Redis para compatibilidade
 - **Testes**: Todos os testes passando com sucesso
 - **Frontend**: Exemplo JavaScript fornecido para integração
-
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 ## 📄 Licença
 
