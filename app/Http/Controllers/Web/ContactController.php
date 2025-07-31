@@ -170,7 +170,7 @@ class ContactController extends Controller
         }
         
         // Dispatch the job
-        ProcessContactScore::dispatch($contact)->onQueue('contacts');
+        ProcessContactScore::dispatch($contact->id)->onQueue('contacts');
         
         if (request()->expectsJson()) {
             return response()->json([

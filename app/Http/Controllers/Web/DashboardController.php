@@ -71,7 +71,7 @@ class DashboardController extends Controller
         
         // Dispatch jobs for all pending contacts
         foreach ($pendingContacts as $contact) {
-            ProcessContactScore::dispatch($contact)->onQueue('contacts');
+            ProcessContactScore::dispatch($contact->id)->onQueue('contacts');
         }
         
         $count = $pendingContacts->count();
